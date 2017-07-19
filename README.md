@@ -3,7 +3,7 @@
 ## Usage
 
 ```bash
-git clone git@github.com:digaev/r2d2.git
+git clone https://github.com/digaev/r2d2.git
 cd r2d2
 bundle install
 
