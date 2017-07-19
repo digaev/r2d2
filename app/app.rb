@@ -12,7 +12,7 @@ class App
 
   def initialize
     @controller = Robot::Controller.new
-    @robot = Robot::Robot.new
+    @robot = Robot::Robot.new(-1, -1)
     @table = Table.new
   end
 
