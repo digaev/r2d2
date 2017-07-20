@@ -56,7 +56,7 @@ class App
     when 'RIGHT' then Robot::CommandRight.new(@robot)
     when 'REPORT' then Robot::CommandReport.new(@robot)
     else
-      raise "Unknown command \"#{cmd[0]}\""
+      raise "Unknown command \"#{cmd.name}\""
     end
   end
 end
